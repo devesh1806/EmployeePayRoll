@@ -26,7 +26,6 @@ public class EmployeePayrollService {
         employeePayrollService. readEmployeePayrollData(consoleInputReader);
         employeePayrollService.writeEmployeePayrollData();
 
-
     }
 
     private void readEmployeePayrollData(Scanner consoleInputReader) {
