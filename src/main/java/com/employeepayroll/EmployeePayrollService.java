@@ -43,7 +43,7 @@ public class EmployeePayrollService {
         employeePayrollList.add(new EmployeePayrollData(id, name, salary));
 
     }
-
+    
     private void writeEmployeePayrollData() {
 
         System.out.println("\nwriting Employee Payroll Roaster to Console\n" + employeePayrollList);
