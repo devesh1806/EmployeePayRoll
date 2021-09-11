@@ -61,4 +61,9 @@ public class EmployeePayrollService {
 		
 		return 0;
 	}
+
+	public long readData(IOService fileIo) {
+		if(fileIo.equals(IOService.FILE_IO)) return new EmployeePayrollIOService().readData().size();
+		return 0;
+	}
 }
