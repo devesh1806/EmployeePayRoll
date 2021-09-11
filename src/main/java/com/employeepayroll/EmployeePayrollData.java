@@ -1,4 +1,4 @@
-package com.employeepayrolltest;
+package com.employeepayroll;
 
 public class EmployeePayrollData {
     public int id;
